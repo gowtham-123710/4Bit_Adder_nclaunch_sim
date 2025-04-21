@@ -89,6 +89,7 @@ or
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
+![image](https://github.com/user-attachments/assets/9c3344ed-2083-4706-b427-8a46900b3adf)
 
 ### Fig 5:cds.lib file Creation
 
@@ -111,8 +112,10 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![image](https://github.com/user-attachments/assets/3b418175-66d3-4ea4-84fd-3fdc0e909d93)
 
 ### Fig 7: Nclaunch Window
+![WhatsApp Image 2025-04-21 at 16 16 16_0d0273ea](https://github.com/user-attachments/assets/93987677-2fe0-48db-97ee-ce364318c6dd)
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -132,6 +135,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ### Fig 8: Compiled database in worklib
+![WhatsApp Image 2025-04-21 at 16 16 17_16b918d9](https://github.com/user-attachments/assets/33ce1f19-9f57-4bbd-8457-078d8505784c)
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -140,6 +144,8 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located. It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
+![WhatsApp Image 2025-04-21 at 16 16 17_28b88912](https://github.com/user-attachments/assets/c481c048-85c6-4e50-8ff0-38ee25a0e013)
+
 	Inputs: Top level design / test bench Verilog codes 
 
 	Outputs: Elaborate database updated in mapped library if successful, generates report else error reported in log file 
@@ -167,10 +173,13 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Steps for simulation – Run the simulation command with simulator options
 
 ### Fig 10: Design Browser window for simulation
+![WhatsApp Image 2025-04-21 at 16 16 16_d99c8776](https://github.com/user-attachments/assets/9d40717a-3a86-4636-b8a6-d288f0fd1c69)
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![WhatsApp Image 2025-04-21 at 16 16 16_4de8c650](https://github.com/user-attachments/assets/e9ae8efb-bca1-4fe0-beb1-2c518d0af9d9)
 
 ### Fig 12: Simulation Waveform Window
+![WhatsApp Image 2025-04-21 at 16 16 17_b44ba96f](https://github.com/user-attachments/assets/9ccdb289-ca2f-40bc-b78e-d249ad9e16d9)
 
 ### Result:
 
