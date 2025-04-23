@@ -140,13 +140,15 @@ or
 •	linux:/> nclaunch& // On subsequent calls to NCVERILOG 
 
 	It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot 2025-04-24 000937](https://github.com/user-attachments/assets/213f71ed-dfa1-43e3-88d9-8013f089a21d)
 
 ### Fig 4:Setting Multi-step simulation
 
 	Select Multiple Step and then select “Create cds.lib File” .
 
 	Click the cds.lib file and save the file by clicking on Save option 
-![image](https://github.com/user-attachments/assets/9c3344ed-2083-4706-b427-8a46900b3adf)
+
+![Screenshot 2025-04-24 001018](https://github.com/user-attachments/assets/d270ca0b-719e-41bc-89ff-d9a9046ae7da)
 
 ### Fig 5:cds.lib file Creation
 
@@ -158,7 +160,8 @@ or
 
 •	A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/781b297a-11e9-4140-89c5-ee3b0d15bbd4)
+
+
 
 ### Fig 6: Selection of Don’t include any libraries
 
@@ -169,10 +172,11 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
-![image](https://github.com/user-attachments/assets/3b418175-66d3-4ea4-84fd-3fdc0e909d93)
+![WhatsApp Image 2025-04-21 at 16 16 17_88fb3a60](https://github.com/user-attachments/assets/4c3ad86e-f0c9-4cbd-b9ec-7ada266e1440)
+
 
 ### Fig 7: Nclaunch Window
-![WhatsApp Image 2025-04-21 at 16 16 16_0d0273ea](https://github.com/user-attachments/assets/93987677-2fe0-48db-97ee-ce364318c6dd)
+
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
