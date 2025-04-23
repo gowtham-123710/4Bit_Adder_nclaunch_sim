@@ -117,9 +117,6 @@ end initial
 
 endmodule
 
-*/Program to design 4 bit adder by instantiating 1 bit Full adder.also add test bench program */
-Developed by: Register Number*/
-
 ## Functional Simulation: 
 
 	Invoke the cadence environment by type the below commands 
